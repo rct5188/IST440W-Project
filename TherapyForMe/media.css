@@ -1,0 +1,140 @@
+body{
+    background-image: url(backgroundpic.png);
+    background-size: cover;
+}
+
+#title{
+    font-size: 50px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.Header{
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: teal;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#therapistimg{
+    float: left;
+    margin-left: 20%;
+}
+
+#therapist{
+    margin-right: 20%
+}
+
+#tiles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.tile:hover img{
+    height: 200px;
+    width: 200px;
+}
+
+.tile{
+    width: 150px;
+    height: 150px;
+    margin: 70px;
+}
+
+.login{
+    text-align: center;
+    float: right;
+    margin-right: 22%;
+    margin-top: 100px;
+    border: solid;
+    border-width: medium;
+    padding: 20px;
+}
+
+a {
+    color:black;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+}
+
+.video1{
+    margin-left: 475px;
+}
+
+.video2{
+    margin-left: 475px;
+}
+
+textarea{
+    height: 300px;
+    width: 1345px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.sidebar{
+    margin-top: 2%;
+}
+
+.sidebar a{
+    margin-left: 10px;
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+.card h3{
+    margin-left: 2%;
+}
+
+.content{
+    margin-left: 40%;
+    margin-top: -18%;
+    background-color: teal;
+    border: solid;
+    font-size: large;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.post{
+    border-style: solid;
+    border-color: black;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: teal;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+}
